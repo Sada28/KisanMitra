@@ -2,17 +2,17 @@ export default {
   appName: 'किसान मित्र',
   tagline: 'हर किसान का साथी',
 
-  login: {
-    title: 'लॉगिन करो',
-    subtitle: 'अपना अकाउंट एक्सेस करो',
-    mobile: 'मोबाइल नंबर',
-    password: 'पासवर्ड',
-    forgot: 'पासवर्ड भूल गए?',
-    loginBtn: 'लॉगिन करो →',
-    otp: 'OTP से लॉगिन करो',
-    noAccount: 'नया अकाउंट? ',
-    register: 'रजिस्टर करो',
-  },
+login: {
+  title: 'लॉगिन',
+  subtitle: 'वापसी पर स्वागत है! जारी रखने के लिए लॉगिन करें',
+  mobile: 'मोबाइल नंबर',
+  password: 'पासवर्ड',
+  forgot: 'पासवर्ड भूल गए?',
+  loginBtn: 'लॉगिन',
+  otp: 'OTP से लॉगिन करें',
+  noAccount: 'क्या आपका अकाउंट नहीं है?',
+  register: 'रजिस्टर करें',
+},
 
   home: {
     namaste: 'नमस्ते 🙏',

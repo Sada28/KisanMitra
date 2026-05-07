@@ -2,17 +2,17 @@ export default {
   appName: 'Kisan Mitra',
   tagline: "Every Farmer's Companion",
 
-  login: {
-    title: 'Login',
-    subtitle: 'Access your account',
-    mobile: 'Mobile Number',
-    password: 'Password',
-    forgot: 'Forgot password?',
-    loginBtn: 'Login →',
-    otp: 'Login with OTP',
-    noAccount: 'New account? ',
-    register: 'Register',
-  },
+ login: {
+  title: 'Login',
+  subtitle: 'Welcome back! Login to continue',
+  mobile: 'Mobile Number',
+  password: 'Password',
+  forgot: 'Forgot Password?',
+  loginBtn: 'Login',
+  otp: 'Login with OTP',
+  noAccount: "Don't have an account?",
+  register: 'Register',
+},
 
   home: {
     namaste: 'Namaste 🙏',

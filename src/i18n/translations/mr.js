@@ -3,16 +3,16 @@ export default {
   tagline: 'प्रत्येक शेतकऱ्याचा साथी',
 
   login: {
-    title: 'लॉगिन करा',
-    subtitle: 'तुमचे खाते उघडा',
-    mobile: 'मोबाईल नंबर',
-    password: 'पासवर्ड',
-    forgot: 'पासवर्ड विसरलात?',
-    loginBtn: 'लॉगिन करा →',
-    otp: 'OTP ने लॉगिन करा',
-    noAccount: 'नवीन खाते? ',
-    register: 'नोंदणी करा',
-  },
+  title: 'लॉगिन',
+  subtitle: 'पुन्हा स्वागत आहे! पुढे जाण्यासाठी लॉगिन करा',
+  mobile: 'मोबाईल नंबर',
+  password: 'पासवर्ड',
+  forgot: 'पासवर्ड विसरलात?',
+  loginBtn: 'लॉगिन',
+  otp: 'OTP द्वारे लॉगिन करा',
+  noAccount: 'तुमचे खाते नाही का?',
+  register: 'नोंदणी करा',
+},
 
   home: {
     namaste: 'नमस्कार 🙏',

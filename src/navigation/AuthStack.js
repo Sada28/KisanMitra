@@ -5,6 +5,7 @@ import SplashScreen from '../screens/SplashScreen';
 import OnboardingScreen from '../screens/OnboardingScreen';
 import LoginScreen from '../screens/LoginScreen';
 import TabNavigator from './TabNavigator';
+import LanguageScreen from '../screens/ProfileSection/LanguageScreen';
 
 const Stack = createStackNavigator();
 
@@ -15,6 +16,7 @@ export default function AuthStack() {
       <Stack.Screen name="Onboarding" component={OnboardingScreen} />
       <Stack.Screen name="Login" component={LoginScreen} />
        <Stack.Screen name="MainTabs" component={TabNavigator} />
+       <Stack.Screen name="LanguageScreen" component={LanguageScreen}/>
     </Stack.Navigator>
   );
 }

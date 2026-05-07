@@ -18,31 +18,55 @@ const slides = [
   {
     id: '1',
     icon: '🌾',
-    title: 'Apni Fasal Ka\nSahi Daam Pao',
-    subtitle: 'Real-time mandi prices, anywhere anytime',
+    title: 'Get The Best\nPrice For Your Crops',
+    subtitle: 'Real-time market prices anytime, anywhere',
     features: [
-      { icon: '📊', text: 'Live Mandi Prices', sub: 'Nagpur, Amravati, Wardha' },
-      { icon: '🔔', text: 'Price Alerts', sub: 'Daam badhne pe notification' },
+      {
+        icon: '📊',
+        text: 'Live Market Prices',
+        sub: 'Nagpur, Amravati, Wardha',
+      },
+      {
+        icon: '🔔',
+        text: 'Price Alerts',
+        sub: 'Get notified when prices increase',
+      },
     ],
   },
   {
     id: '2',
     icon: '🌤️',
-    title: 'Smart Mausam\nAdvisory',
-    subtitle: 'Apne gaon ka hyperlocal weather forecast',
+    title: 'Smart Weather\nAdvisory',
+    subtitle: 'Hyperlocal weather forecast for your village',
     features: [
-      { icon: '🌧️', text: 'Rain Alerts', sub: 'Sowing ke liye sahi time' },
-      { icon: '💧', text: 'Irrigation Guide', sub: 'Aaj pani do ya nahi?' },
+      {
+        icon: '🌧️',
+        text: 'Rain Alerts',
+        sub: 'Best time for sowing',
+      },
+      {
+        icon: '💧',
+        text: 'Irrigation Guide',
+        sub: 'Know whether to water today or not',
+      },
     ],
   },
   {
     id: '3',
     icon: '🔬',
-    title: 'Fasal Ki Bimari\nPehchano',
-    subtitle: 'Photo khicho — AI disease detect karega',
+    title: 'Detect Crop\nDiseases',
+    subtitle: 'Capture a photo — AI will detect the disease',
     features: [
-      { icon: '📷', text: 'Camera se Scan', sub: 'Seedha photo lo plant ki' },
-      { icon: '💊', text: 'Treatment Suggest', sub: 'Hindi & Marathi mein' },
+      {
+        icon: '📷',
+        text: 'Scan with Camera',
+        sub: 'Take a direct photo of the plant',
+      },
+      {
+        icon: '💊',
+        text: 'Treatment Suggestions',
+        sub: 'Available in English, Hindi & Marathi',
+      },
     ],
   },
 ];
@@ -157,20 +181,27 @@ export default function OnboardingScreen() {
         </View>
 
         {/* Next / Get Started Button */}
+        {/* Next / Get Started Button */}
         <TouchableOpacity
           style={styles.nextBtn}
           onPress={handleNext}
           activeOpacity={0.85}>
           <Text style={styles.nextBtnText}>
-            {currentIndex === slides.length - 1 ? 'Shuru Karo 🚀' : 'Aage →'}
+            {currentIndex === slides.length - 1
+              ? 'Get Started'
+              : 'Next'}
           </Text>
         </TouchableOpacity>
 
         {/* Already have account */}
         <View style={styles.loginRow}>
-          <Text style={styles.loginText}>Pehle se account hai? </Text>
-          <TouchableOpacity onPress={() => navigation.replace('Login')}>
-            <Text style={styles.loginLink}>Login Karo</Text>
+          <Text style={styles.loginText}>
+            Already have an account?{' '}
+          </Text>
+
+          <TouchableOpacity
+            onPress={() => navigation.replace('Login')}>
+            <Text style={styles.loginLink}>Login</Text>
           </TouchableOpacity>
         </View>
       </View>
